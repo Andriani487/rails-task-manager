@@ -11,6 +11,11 @@
   </head>
 
   <body>
+    <% if notice %>
+    <p style="color: blue;"><%= notice %></p>
+    <% end %>
+
     <%= yield %>
+
   </body>
 </html>
